@@ -19,9 +19,9 @@ ws = Workspace.from_config()
 # for registration we need storage name and storage key in which we want to create this data source
 blob_ds = Datastore.register_azure_blob_container(workspace=ws,
                                                   datastore_name = "blob_data",
-                                                  container_name='azureml-blobstore-bf4e0c62-87d2-4233-920c-6870aa62cfc0',
-                                                  account_name='rishabhmachine5989301776',
-                                                  account_key = 'OCToPz0m8zQBNxIUL01aZDyhHDGK3fDuMXCE0NV/e28UW89q9YWfZimujAeGMS4dvGSOEbHE5YYFmZUFRrXaeA==')
+                                                  container_name='',
+                                                  account_name='',
+                                                  account_key = '')
 
 
 #lets check all the datastores in the workspace 
