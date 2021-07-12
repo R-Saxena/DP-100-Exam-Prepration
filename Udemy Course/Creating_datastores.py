@@ -12,7 +12,7 @@ az_store = Datastore.register_azure_blob_container(workspace = ws,
                                                    datastore_name = "MyDataStore",
                                                    account_name = "storageaccountsdk001",
                                                    container_name = "datasets",
-                                                   account_key = " "
+                                                   account_key = "o5yLP1G5rtrqofqtJcYre0AiG9cfRtxuLPm8AS5eMDLyLj3VEGgjQPqvXCCkuHx8oFB2YENkoK73XXwME9wHrg=="
 )
 
 # for checking the list of all the Datastores 
